@@ -4,10 +4,14 @@ I plan to be able to understand how to access the sensors of an iPhone to create
 
 I am currently running through the linkedin learning Swift 5 Fundamentals course. More to come.
 
-<!-- Week 1 Jan 28th
+##### Week 1 Jan 28th
+Prompt: create a Xcode playground to explore emoji's and add it to your repo and encorporate Swift langage features you are learning eg. variables, for loops, arrays
 
-Week 2 Feb 4th
+##### Week 2 Feb 4th
+Prompt: create a Xcode playground that uses print function to create ascii art
 
+
+<!-- 
 Week 3 Feb 11th
 
 Week 4 Feb 18th 
