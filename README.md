@@ -10,7 +10,8 @@ Prompt: create a Xcode playground to explore emoji's and add it to your repo and
 ##### Week 2 Feb 4th
 Prompt: create a Xcode playground that uses print function to create ascii art
 
-
+This week I added ascii art from [Jodi hydrogen bomb](https://wwwwwwwww.jodi.org/) if you look at the source of the website you can see the hydrogen bombs.
+The [Jodi page carpet bomb](https://wwwwwwww.jodi.org/) also tells the background of the carpet bomber.
 <!-- 
 Week 3 Feb 11th
 
