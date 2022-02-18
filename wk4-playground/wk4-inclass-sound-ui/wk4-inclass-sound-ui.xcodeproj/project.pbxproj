@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB530A0927C0412E0028F131 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530A0827C0412E0028F131 /* Tests_iOS.swift */; };
+		EB530A0B27C0412E0028F131 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530A0A27C0412E0028F131 /* Tests_iOSLaunchTests.swift */; };
+		EB530A1527C0412E0028F131 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530A1427C0412E0028F131 /* Tests_macOS.swift */; };
+		EB530A1727C0412E0028F131 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB530A1627C0412E0028F131 /* Tests_macOSLaunchTests.swift */; };
+		EB530A1827C0412E0028F131 /* wk4_inclass_sound_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5309F027C0412C0028F131 /* wk4_inclass_sound_uiApp.swift */; };
+		EB530A1927C0412E0028F131 /* wk4_inclass_sound_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5309F027C0412C0028F131 /* wk4_inclass_sound_uiApp.swift */; };
+		EB530A1A27C0412E0028F131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5309F127C0412C0028F131 /* ContentView.swift */; };
+		EB530A1B27C0412E0028F131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5309F127C0412C0028F131 /* ContentView.swift */; };
+		EB530A1C27C0412E0028F131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5309F227C0412D0028F131 /* Assets.xcassets */; };
+		EB530A1D27C0412E0028F131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5309F227C0412D0028F131 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB530A0527C0412E0028F131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5309EB27C0412C0028F131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5309F627C0412E0028F131;
+			remoteInfo = "wk4-inclass-sound-ui (iOS)";
+		};
+		EB530A1127C0412E0028F131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5309EB27C0412C0028F131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5309FC27C0412E0028F131;
+			remoteInfo = "wk4-inclass-sound-ui (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB5309F027C0412C0028F131 /* wk4_inclass_sound_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk4_inclass_sound_uiApp.swift; sourceTree = "<group>"; };
+		EB5309F127C0412C0028F131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB5309F227C0412D0028F131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5309F727C0412E0028F131 /* wk4-inclass-sound-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wk4-inclass-sound-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5309FD27C0412E0028F131 /* wk4-inclass-sound-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wk4-inclass-sound-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5309FF27C0412E0028F131 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EB530A0427C0412E0028F131 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB530A0827C0412E0028F131 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		EB530A0A27C0412E0028F131 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		EB530A1027C0412E0028F131 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB530A1427C0412E0028F131 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		EB530A1627C0412E0028F131 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5309F427C0412E0028F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5309FA27C0412E0028F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0127C0412E0028F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0D27C0412E0028F131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5309EA27C0412C0028F131 = {
+			isa = PBXGroup;
+			children = (
+				EB5309EF27C0412C0028F131 /* Shared */,
+				EB5309FE27C0412E0028F131 /* macOS */,
+				EB530A0727C0412E0028F131 /* Tests iOS */,
+				EB530A1327C0412E0028F131 /* Tests macOS */,
+				EB5309F827C0412E0028F131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5309EF27C0412C0028F131 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EB5309F027C0412C0028F131 /* wk4_inclass_sound_uiApp.swift */,
+				EB5309F127C0412C0028F131 /* ContentView.swift */,
+				EB5309F227C0412D0028F131 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EB5309F827C0412E0028F131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5309F727C0412E0028F131 /* wk4-inclass-sound-ui.app */,
+				EB5309FD27C0412E0028F131 /* wk4-inclass-sound-ui.app */,
+				EB530A0427C0412E0028F131 /* Tests iOS.xctest */,
+				EB530A1027C0412E0028F131 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5309FE27C0412E0028F131 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB5309FF27C0412E0028F131 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EB530A0727C0412E0028F131 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB530A0827C0412E0028F131 /* Tests_iOS.swift */,
+				EB530A0A27C0412E0028F131 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		EB530A1327C0412E0028F131 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB530A1427C0412E0028F131 /* Tests_macOS.swift */,
+				EB530A1627C0412E0028F131 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5309F627C0412E0028F131 /* wk4-inclass-sound-ui (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB530A2027C0412E0028F131 /* Build configuration list for PBXNativeTarget "wk4-inclass-sound-ui (iOS)" */;
+			buildPhases = (
+				EB5309F327C0412E0028F131 /* Sources */,
+				EB5309F427C0412E0028F131 /* Frameworks */,
+				EB5309F527C0412E0028F131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wk4-inclass-sound-ui (iOS)";
+			productName = "wk4-inclass-sound-ui (iOS)";
+			productReference = EB5309F727C0412E0028F131 /* wk4-inclass-sound-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB5309FC27C0412E0028F131 /* wk4-inclass-sound-ui (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB530A2327C0412E0028F131 /* Build configuration list for PBXNativeTarget "wk4-inclass-sound-ui (macOS)" */;
+			buildPhases = (
+				EB5309F927C0412E0028F131 /* Sources */,
+				EB5309FA27C0412E0028F131 /* Frameworks */,
+				EB5309FB27C0412E0028F131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wk4-inclass-sound-ui (macOS)";
+			productName = "wk4-inclass-sound-ui (macOS)";
+			productReference = EB5309FD27C0412E0028F131 /* wk4-inclass-sound-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB530A0327C0412E0028F131 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB530A2627C0412E0028F131 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				EB530A0027C0412E0028F131 /* Sources */,
+				EB530A0127C0412E0028F131 /* Frameworks */,
+				EB530A0227C0412E0028F131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB530A0627C0412E0028F131 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = EB530A0427C0412E0028F131 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EB530A0F27C0412E0028F131 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB530A2927C0412E0028F131 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				EB530A0C27C0412E0028F131 /* Sources */,
+				EB530A0D27C0412E0028F131 /* Frameworks */,
+				EB530A0E27C0412E0028F131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB530A1227C0412E0028F131 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = EB530A1027C0412E0028F131 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5309EB27C0412C0028F131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB5309F627C0412E0028F131 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB5309FC27C0412E0028F131 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB530A0327C0412E0028F131 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB5309F627C0412E0028F131;
+					};
+					EB530A0F27C0412E0028F131 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB5309FC27C0412E0028F131;
+					};
+				};
+			};
+			buildConfigurationList = EB5309EE27C0412C0028F131 /* Build configuration list for PBXProject "wk4-inclass-sound-ui" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5309EA27C0412C0028F131;
+			productRefGroup = EB5309F827C0412E0028F131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5309F627C0412E0028F131 /* wk4-inclass-sound-ui (iOS) */,
+				EB5309FC27C0412E0028F131 /* wk4-inclass-sound-ui (macOS) */,
+				EB530A0327C0412E0028F131 /* Tests iOS */,
+				EB530A0F27C0412E0028F131 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5309F527C0412E0028F131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A1C27C0412E0028F131 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5309FB27C0412E0028F131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A1D27C0412E0028F131 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0227C0412E0028F131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0E27C0412E0028F131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5309F327C0412E0028F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A1A27C0412E0028F131 /* ContentView.swift in Sources */,
+				EB530A1827C0412E0028F131 /* wk4_inclass_sound_uiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5309F927C0412E0028F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A1B27C0412E0028F131 /* ContentView.swift in Sources */,
+				EB530A1927C0412E0028F131 /* wk4_inclass_sound_uiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0027C0412E0028F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A0B27C0412E0028F131 /* Tests_iOSLaunchTests.swift in Sources */,
+				EB530A0927C0412E0028F131 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB530A0C27C0412E0028F131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB530A1727C0412E0028F131 /* Tests_macOSLaunchTests.swift in Sources */,
+				EB530A1527C0412E0028F131 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB530A0627C0412E0028F131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5309F627C0412E0028F131 /* wk4-inclass-sound-ui (iOS) */;
+			targetProxy = EB530A0527C0412E0028F131 /* PBXContainerItemProxy */;
+		};
+		EB530A1227C0412E0028F131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5309FC27C0412E0028F131 /* wk4-inclass-sound-ui (macOS) */;
+			targetProxy = EB530A1127C0412E0028F131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB530A1E27C0412E0028F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB530A1F27C0412E0028F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB530A2127C0412E0028F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.wk4-inclass-sound-ui";
+				PRODUCT_NAME = "wk4-inclass-sound-ui";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB530A2227C0412E0028F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.wk4-inclass-sound-ui";
+				PRODUCT_NAME = "wk4-inclass-sound-ui";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB530A2427C0412E0028F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.wk4-inclass-sound-ui";
+				PRODUCT_NAME = "wk4-inclass-sound-ui";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB530A2527C0412E0028F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.wk4-inclass-sound-ui";
+				PRODUCT_NAME = "wk4-inclass-sound-ui";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB530A2727C0412E0028F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wk4-inclass-sound-ui (iOS)";
+			};
+			name = Debug;
+		};
+		EB530A2827C0412E0028F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wk4-inclass-sound-ui (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB530A2A27C0412E0028F131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wk4-inclass-sound-ui (macOS)";
+			};
+			name = Debug;
+		};
+		EB530A2B27C0412E0028F131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7E4FRN2QG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laurenchun.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wk4-inclass-sound-ui (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5309EE27C0412C0028F131 /* Build configuration list for PBXProject "wk4-inclass-sound-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB530A1E27C0412E0028F131 /* Debug */,
+				EB530A1F27C0412E0028F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB530A2027C0412E0028F131 /* Build configuration list for PBXNativeTarget "wk4-inclass-sound-ui (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB530A2127C0412E0028F131 /* Debug */,
+				EB530A2227C0412E0028F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB530A2327C0412E0028F131 /* Build configuration list for PBXNativeTarget "wk4-inclass-sound-ui (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB530A2427C0412E0028F131 /* Debug */,
+				EB530A2527C0412E0028F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB530A2627C0412E0028F131 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB530A2727C0412E0028F131 /* Debug */,
+				EB530A2827C0412E0028F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB530A2927C0412E0028F131 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB530A2A27C0412E0028F131 /* Debug */,
+				EB530A2B27C0412E0028F131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5309EB27C0412C0028F131 /* Project object */;
+}

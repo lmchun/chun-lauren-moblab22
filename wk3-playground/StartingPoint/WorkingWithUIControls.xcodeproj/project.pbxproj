@@ -40,6 +40,7 @@
 		C2FEB34124B7CEE0004FAB73 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FEB34024B7CEE0004FAB73 /* HikeBadge.swift */; };
 		C2FEB34324B7D935004FAB73 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FEB34224B7D935004FAB73 /* ProfileEditor.swift */; };
 		EB3A7BB727C02812009569A4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A7BB627C02812009569A4 /* PageViewController.swift */; };
+		EB5309E927C039D30028F131 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5309E827C039D30028F131 /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		C2FEB34024B7CEE0004FAB73 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		C2FEB34224B7D935004FAB73 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		EB3A7BB627C02812009569A4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EB5309E827C039D30028F131 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				EB3A7BB627C02812009569A4 /* PageViewController.swift */,
+				EB5309E827C039D30028F131 /* FeatureCard.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				C20D782224B6CD01002E7AEA /* HikeGraph.swift in Sources */,
 				C2FEB32A24B7B649004FAB73 /* CategoryRow.swift in Sources */,
 				C2FEB33D24B7CD01004FAB73 /* Profile.swift in Sources */,
+				EB5309E927C039D30028F131 /* FeatureCard.swift in Sources */,
 				C2FEB34324B7D935004FAB73 /* ProfileEditor.swift in Sources */,
 				C20D781024B6A3B1002E7AEA /* HexagonParameters.swift in Sources */,
 				C20D780524B684EC002E7AEA /* ModelData.swift in Sources */,
