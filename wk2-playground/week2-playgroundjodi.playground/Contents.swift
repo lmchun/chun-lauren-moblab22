@@ -1,5 +1,5 @@
 import Foundation
-import UIKit
+//import UIKit
 
 let path = URL(string: "https://wwwwwwwww.jodi.org/")
 let jodiStr = try String(contentsOf: path!, encoding: .utf8)
