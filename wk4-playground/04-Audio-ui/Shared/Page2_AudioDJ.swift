@@ -92,12 +92,10 @@ class AudioDJ: ObservableObject {
   }
 
   static let audioRef = [
-    "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
-    "https://www.youraccompanist.com/images/stories/Reference%20Scales_On%20A%20Flat-G%20Sharp.mp3",
-    "bbc-birds-1.m4a",
-    "https://www.youraccompanist.com/images/stories/Reference%20Scales_Pentatonic%20on%20F%20Sharp.mp3",
-    "bbc-birds-2.m4a",
-    "https://www.youraccompanist.com/images/stories/Reference%20Scales_Chromatic%20Scale%20On%20F%20Sharp.mp3",
+    "birds.mp3",
+    "rain.mp3",
+    "train.mp3",
+    "wind.mp3"
   ]
   
 }
