@@ -23,10 +23,10 @@ struct audio_ui_menu: View {
         audioDJ.stop()
       }
       List {
-        Button("Rain") { choose( 0 ) }
-        Button("Wind") { choose( 1 ) }
-        Button("Train") { choose( 2 ) }
-        Button("Birds") { choose( 3 ) }
+        Button("bird") { choose( 0 ) }
+        Button("rain") { choose( 1 ) }
+        Button("train") { choose( 2 ) }
+        Button("wind") { choose( 3 ) }
       }
     }
     .onAppear {
