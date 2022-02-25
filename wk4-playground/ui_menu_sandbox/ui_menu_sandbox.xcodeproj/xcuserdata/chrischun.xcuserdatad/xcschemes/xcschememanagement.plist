@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AudioDemo (iOS).xcscheme_^#shared#^_</key>
+		<key>ui_menu_sandbox (iOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>AudioDemo (macOS).xcscheme_^#shared#^_</key>
+		<key>ui_menu_sandbox (macOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
