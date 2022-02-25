@@ -6,7 +6,7 @@ import SwiftUI
 struct audio_ui_menu: View {
   @StateObject var audioDJ = AudioDJ()
   @State private var selection: Int? = nil
-  let views = ["View 0", "View 1", "View 2", "View 3"]
+  let views = ["Rain", "Wind", "Train", "Birds"]
   var body: some View {
     VStack {
       NavigationLink(destination: Text(views[0]), tag: 0, selection: $selection) { EmptyView() }
