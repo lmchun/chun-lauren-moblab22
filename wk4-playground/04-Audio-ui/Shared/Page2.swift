@@ -13,12 +13,12 @@ func loadUrlAudio(_ urlString:String) -> AVAudioPlayer? {
   }
   return nil
 }
-
+//birds, rain, train, wind
 let urlSounds = [
-  "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
-  "https://www.youraccompanist.com/images/stories/Reference%20Scales_On%20A%20Flat-G%20Sharp.mp3",
-  "https://www.youraccompanist.com/images/stories/Reference%20Scales_Pentatonic%20on%20F%20Sharp.mp3",
-  "https://www.youraccompanist.com/images/stories/Reference%20Scales_Chromatic%20Scale%20On%20F%20Sharp.mp3",
+  "https://drive.google.com/file/d/1yTpky-j5naE75dJyvg-UM-3x-2GvGzgV/view?usp=sharing",
+  "https://drive.google.com/file/d/1P5-X6_cOCtQjRNYzsxPVKBOPLvjxmy0V/view?usp=sharing",
+  "https://drive.google.com/file/d/1QqY5j21Bn4QsD-1uVQy5vacW2fl3ZUIO/view?usp=sharing",
+  "https://drive.google.com/file/d/1LKtq9pu-gqK2VkZx-HVW897ul1Vk09z4/view?usp=sharing",
 ]
 
 struct Page2: View {
